@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutArtikel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lightgrey"
+        android:layout_margin="1dip"
+        android:descendantFocusability="beforeDescendants">
+
+        <ImageView
+            android:id="@+id/slikaArtikla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <TextView
+            android:id="@+id/imeArtikla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Ime"
+            android:textSize="40dip"
+            android:autoSizeTextType="uniform"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Kolicina" />
+
+            <TextView
+                android:id="@+id/kolicinaArtikla"
+                android:layout_width="55dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAlignment="center"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cenaArtikla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Cena"
+            android:textSize="30dip"
+            android:autoSizeTextType="uniform"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

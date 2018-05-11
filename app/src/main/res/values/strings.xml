@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trgovina</string>
+    <string name="imena_izdelkov">Srajca tropic,Srajca modra,Srajca bela,Kratke hlace,Dolge hlace,Pulover zelen,Pulover moder,Vecerna obleka</string>
+    <string name="cene_izdelkov">49.99,49.99,45.99,55.00,70.00,65.50,65.50,99.99</string>
+    <string name="id_slike_izdelka">img1,img2,img3,img4,img5,img6,img7,im8</string>
+    <string name="st_izdelkov">1,2,1,1,1,4,1,1</string>
+    <string name="id_uporabnika_kosare">1,1,1,1,1,1,1,2</string>
+    <string name="id_uporabnikov">1,2</string>
+    <string name="ime_uporabnika">Janez Novak,Meta Novak</string>
+</resources>
